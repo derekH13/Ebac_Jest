@@ -1,9 +1,9 @@
 import { render, screen } from "@testing-library/react";
-import Post from ".."; // Importa o componente
+import Post from "..";
 
 describe("Teste para o componente Post", () => {
   test("Deve renderizar corretamente", () => {
-    // Aqui renderizo o componente com os dados necessários
+    // renderizo o componente
     render(<Post imageUrl="https://via.placeholder.com/250x250">Teste</Post>);
 
     // Verifica se o texto do post está presente
